@@ -8,6 +8,8 @@ const tasksRouter = require('./routes/tasks');
 app.get('/', (req, res) => {
  res.json({ message: "DevOps Task Manager API is running (lab 2)" });
 });
+// CI test change 
+console.log("Testing CI with a Pull Request"); 
 
 app.use('/tasks', tasksRouter);
 
