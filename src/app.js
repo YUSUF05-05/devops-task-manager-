@@ -6,7 +6,7 @@ const tasksRouter = require('./routes/tasks');
 
 
 app.get('/', (req, res) => {
-  res.json({ message: "Welcome from FEATURE branch" });
+ res.json({ message: "DevOps Task Manager API is running (lab 2)" });
 });
 
 app.use('/tasks', tasksRouter);
